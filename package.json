@@ -1,0 +1,54 @@
+{
+  "name": "@promopilot/favicon-checker",
+  "version": "1.0.0",
+  "description": "Check a website's favicons from the command line: <link rel=icon>, apple-touch-icon, web manifest icons and /favicon.ico — real sizes, broken files, Google's 48px rule. Zero-dependency Node.js CLI and library. Free online version by PromoPilot.",
+  "keywords": [
+    "favicon",
+    "favicon-checker",
+    "seo",
+    "seo-tools",
+    "apple-touch-icon",
+    "web-manifest",
+    "pwa",
+    "cli",
+    "nodejs",
+    "website-audit",
+    "technical-seo",
+    "google-search",
+    "promopilot"
+  ],
+  "homepage": "https://promopilot.link/en/tools/favicon-checker.php?utm_source=github&utm_medium=repo&utm_campaign=tools&utm_content=favicon-checker",
+  "bugs": {
+    "url": "https://github.com/ksanyok/favicon-checker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksanyok/favicon-checker.git"
+  },
+  "license": "MIT",
+  "author": "Alexandr Krikun (https://github.com/ksanyok)",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "favicon-checker": "bin/cli.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
