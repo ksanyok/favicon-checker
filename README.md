@@ -97,7 +97,7 @@ Options:
   -h, --help        Show this help
   -v, --version     Show version
 
-Online version (no install): https://promopilot.link/en/tools/favicon-checker.php
+Online version (no install): https://promopilot.link/en/tools/favicon-checker.php?utm_source=github&utm_medium=cli&utm_campaign=tools&utm_content=favicon-checker
 ```
 
 ## Use as a library
